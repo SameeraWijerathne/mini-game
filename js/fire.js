@@ -164,8 +164,6 @@ function resetGame() {
     clearInterval(initialTimer2);
     clearInterval(initialTimer3);
     clearInterval(deadTimer);
-    
-    gameOverWindow.style.visibility = 'hidden';
 }
 
 moveParticles();

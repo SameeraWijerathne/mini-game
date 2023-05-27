@@ -9,7 +9,6 @@ html {
 body {
     position: relative;
     min-height: 100vh;
-    /* background-image: url(/img/background/background.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,7 +23,6 @@ body {
     height: 150px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
     bottom: 200px; 
 }
 

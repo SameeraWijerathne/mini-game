@@ -40,12 +40,10 @@ function startGame(){
         if (eventData.code === 'Space'){
             jump = true;
         } else if (eventData.code === 'ArrowRight' || eventData.code === 'KeyD'){
-            // run = true;
             runRight = true;
             boxElm.style.transform = 'rotateY(0deg)';
             dx = 2;
         } else if (eventData.code === 'ArrowLeft' || eventData.code === 'KeyA'){
-            // run = true;
             runLeft = true;
             boxElm.style.transform = `rotateY(180deg)`;
             dx = -2;
