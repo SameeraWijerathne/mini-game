@@ -15,9 +15,9 @@ for(let i = 1; i <= 8; i++){
     image.src  = `img/Run (${i}).png`;
 }
 
-document.body.style.backgroundImage = `url('/img/background/background.jpg')`;
-document.getElementById("game-over-logo").setAttribute('src','/img/assets/game-over.png');
-document.getElementById("btn-play").setAttribute('src', '/img/assets/play.png');
+document.body.style.backgroundImage = `url('img/background/background.jpg')`;
+document.getElementById("game-over-logo").setAttribute('src','img/assets/game-over.png');
+document.getElementById("btn-play").setAttribute('src', 'img/assets/play.png');
 const boxElm = document.createElement('div');
 boxElm.classList.add('box');
 document.body.append(boxElm);
