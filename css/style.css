@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Londrina Outline', cursive, Ubuntu, sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(/img/background/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    user-select: none;
+
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    bottom: 200px; 
+}
+
+#score {
+    position: absolute;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    left: 25px;
+    top: 25px;
+    text-shadow: 3px 5px 3px black;
+    background-color: rgba(211, 211, 211, 0.418);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#game-over-window {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.37);
+    /* background-color: rgba(116, 80, 14, 0.548); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    visibility: hidden;
+    z-index: 99999;
+    border-radius: 20px;
+    box-shadow: black 3px 3px 11px 3px;
+}
+
+#game-over-window img {
+    height: 150px;
+}
+
+
+#final-score {
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+}
+
+#btn-play {
+    cursor: pointer;
+}
+
+#btn-play:hover {
+    opacity: 0.8;
+}
+
+#btn-play:active {
+    opacity: 1;
+}
