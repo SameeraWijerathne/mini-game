@@ -44,7 +44,7 @@ class Fire {
     width = 40;
     height = this.width;
     x = Math.random() < 0.5 ? -this.width : innerWidth; 
-    y = 698; 
+    y = 74;
     dx = Math.random() < 0.5 ? 2 : -2; 
     elm;
 
@@ -58,7 +58,7 @@ class Fire {
         this.elm.style.backgroundRepeat = 'no-repeat';
         this.elm.style.backgroundPosition = 'center';
         this.elm.style.left = `${this.x}px`;
-        this.elm.style.top = `${this.y}px`;
+        this.elm.style.top = `${this.y}vh`;
         document.body.append(this.elm);
     }
 

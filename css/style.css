@@ -23,7 +23,7 @@ body {
     height: 150px;
     background-repeat: no-repeat;
     background-size: cover;
-    bottom: 200px; 
+    bottom: 20vh; 
 }
 
 #score {
